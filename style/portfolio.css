@@ -86,6 +86,7 @@ nav a {
   color: #757575;
   font-weight: 400;
   line-height: 30px;
+  font-size: 18px;
 }
 /* main section styles */
 main {
@@ -111,4 +112,7 @@ main section {
   color: #757575;
   font-size: 20px;
   font-weight: 400;
+}
+#what-i-do-description{
+  padding: 30px 150px;
 }
