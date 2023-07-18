@@ -1,4 +1,9 @@
 /* common shared styles */
+*{
+  margin: 0;
+  padding: 0;
+
+}
 body {
   font-family: "Lato", sans-serif;
   font-family: "Open Sans", sans-serif;
@@ -14,6 +19,7 @@ body {
   font-size: 20px;
   font-weight: 700;
   padding: 15px 35px;
+  margin-top: 2rem;
 }
 .section-title {
   color: #181818;
@@ -68,8 +74,8 @@ nav a {
 .banner-content {
   max-width: 500px;
 }
-.banner-profile-picture {
-  width: 500px;
+.profile-picture {
+  width: 50%;
 }
 .banner-greeting {
   font-size: 45px;
@@ -142,6 +148,7 @@ color: #474747;
 font-size: 30px;
 font-weight: 700;
 line-height: normal;
+margin-top: 2rem;
 }
 .resume-container{
   display: flex;
@@ -160,13 +167,14 @@ font-size: 20px;
 font-weight: 600;
 line-height: normal;
 margin-top: 20px;
-margin-bottom: 0px;
 }
 .resume-item-description{
 color: var(--dark-03, #757575);
 font-size: 16px;
 font-weight: 400;
 line-height: 28px;
+margin-top: 20px;
+margin-bottom: 1.5rem;
 }
 .download-cv{
   text-align: center;
@@ -177,18 +185,23 @@ footer{
   display: flex;
   gap: 100px;
   background-color: #faeee5;
-  padding: 130px 230px;
+  padding: 130px 150px;
   margin-top: 100px;
 }
 .footer-colum{
   width: 50%;
+
+}
+.social-links{
+  margin-top: 1.5rem;
 }
 .social-links a{
   margin-right: 24px;
+
 }
 .contact input[type="text"],input[type="email"],
  textarea{
-  display: block;
+  margin-top: 1.5rem;
   margin-bottom: 24px;
   padding: 18px 35px;
   color: #757575;
