@@ -119,6 +119,7 @@ main section {
   color: #757575;
   font-size: 20px;
   font-weight: 400;
+  margin-top: 2rem;
 }
 /* skills related styls */
 #what-i-do-description{
@@ -221,6 +222,16 @@ footer{
   /* .banner {
     flex-direction: column;
   } */
+  .header{
+    background-image: none;
+  }
+  .banner, nav, ul{
+    flex-direction: column;
+
+  }
+  .banner-description{
+    width: 100%;
+  }
 
   .skills-container, .resume-container, footer{
     flex-direction: column;
@@ -228,7 +239,7 @@ footer{
   #what-i-do-description{
     padding: 20px;
   }
- footer{
+ footer, .about{
   padding: 130px 50px;
  }
  .contact input[type="text"],input[type="email"],
