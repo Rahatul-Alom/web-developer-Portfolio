@@ -189,7 +189,7 @@ footer{
   margin-top: 100px;
 }
 .footer-colum{
-  width: 50%;
+  width: 100%;
 
 }
 .social-links{
@@ -212,4 +212,28 @@ footer{
   background: #FFF;
   border: 0;
   width: 100%;
+}
+
+/* Responsive design */
+/* For Mobile */
+@media screen and (max-width: 576px) {
+
+  /* .banner {
+    flex-direction: column;
+  } */
+
+  .skills-container, .resume-container, footer{
+    flex-direction: column;
+  }
+  #what-i-do-description{
+    padding: 20px;
+  }
+ footer{
+  padding: 130px 50px;
+ }
+ .contact input[type="text"],input[type="email"],
+ textarea{
+  width: 70%;
+ }
+
 }
